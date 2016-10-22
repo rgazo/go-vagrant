@@ -5,9 +5,7 @@ Vagrant environment for Golang, with support for both [go](http://golang.org/doc
 ## Install
 ```
 > git clone https://github.com/rgazo/go-vagrant.git
-
 > cd go-vagrant/vagrant
-
 > vagrant up
 ```
 
@@ -16,7 +14,6 @@ Vagrant environment for Golang, with support for both [go](http://golang.org/doc
 Log in to the vagrant box:
 ```
 > vagrant ssh
-
 > ll
 ```
 
@@ -30,8 +27,14 @@ vagrant/
 * **src** will contain your project.
 
 ```
-> vi src/README.md
+> cd src
+> mkdir [your project name]
+> cd [your project name]
+> glide install
 ```
+
+**Glide**
+Glide is a package manager for Go. More info: https://github.com/Masterminds/glide
 
 **HAproxy**
 
@@ -48,3 +51,10 @@ Start PostgreSQL
 ```
 sudo service postgresql start
 ```
+
+Go (Golang)
+
+* https://golang.org/
+* Read the book: https://www.golang-book.com/books/intro
+* Good minimalist framework: https://github.com/labstack/echo
+

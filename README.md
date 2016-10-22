@@ -39,6 +39,8 @@ Start haproxy:
 ```
 sudo service haproxy start
 ```
+Your server will be at `http://192.168.50.4/`
+* You will get a 503 error until you have your go project running on port 8000
 
 **PostgreSQL**
 

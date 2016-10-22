@@ -1,8 +1,8 @@
 **Create project here**
 
 ```
-mkdir [project]
-cd [project]
+mkdir [my project]
+cd [my project]
 glide create
 
 ```

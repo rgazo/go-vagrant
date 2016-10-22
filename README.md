@@ -52,7 +52,7 @@ Start PostgreSQL
 sudo service postgresql start
 ```
 
-Go (Golang)
+**Go (Golang)**
 
 * https://golang.org/
 * Read the book: https://www.golang-book.com/books/intro
